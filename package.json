@@ -1,0 +1,23 @@
+{
+  "name": "fork-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenvanhoang26041994/fork-admin.git"
+  },
+  "keywords": [
+    "Fork",
+    "Admin"
+  ],
+  "author": "Son Thai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenvanhoang26041994/fork-admin/issues"
+  },
+  "homepage": "https://github.com/nguyenvanhoang26041994/fork-admin#readme"
+}
