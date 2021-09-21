@@ -61,7 +61,6 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
     alias: {
       '@': rootDir,
-      // '@': path.join(rootDir, 'src'),
       // '@contexts': path.join(rootDir, 'src/contexts'),
       // '@components': path.join(rootDir, 'src/components'),
       // '@containers': path.join(rootDir, 'src/containers'),
@@ -73,12 +72,12 @@ module.exports = {
       // '@selectors': path.join(rootDir, 'src/selectors'),
       // '@constants': path.join(rootDir, 'src/constants'),
       // '@store': path.join(rootDir, 'src/store'),
-      // '@fork-ui': path.join(rootDir, 'fork-ui'),
+      '@fork-ui': path.join(rootDir, 'fork-ui'),
       // '@fork-chat': path.join(rootDir, 'fork-chat'),
       // '@fork-guide': path.join(rootDir, 'fork-guide'),
     }
   },
   watchOptions: {
-    ignored: ['**/node_modules', path.join(rootDir, 'fork-ui/icons')],
+    ignored: ['**/node_modules', path.join(rootDir, 'fork-ui/src/icons')],
   },
 };

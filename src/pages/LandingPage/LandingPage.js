@@ -5,7 +5,7 @@ const Wrapper = styled.div``;
 const LandingPage = () => {
   return (
     <Wrapper>
-      {children}
+      Hello
     </Wrapper>
   );
 };

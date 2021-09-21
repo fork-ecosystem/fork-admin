@@ -12,6 +12,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
+      "@fork-ui/*": ["./fork-ui/*"],
     }
   },
   "include": ["src/**/*"]

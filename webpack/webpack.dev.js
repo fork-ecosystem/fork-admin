@@ -17,7 +17,8 @@ module.exports = Object.assign({}, webpackBaseConfig, {
     },
     devMiddleware: {
       stats: 'minimal',
-    }
+    },
+    historyApiFallback: true,
   },
   optimization: {
     minimize: false,
