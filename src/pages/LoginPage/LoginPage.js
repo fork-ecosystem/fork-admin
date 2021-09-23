@@ -19,7 +19,7 @@ const LoginPage = () => {
           <FormField.Label>Password</FormField.Label>
           <Password />
         </FormField>
-        <Button color="primary">Click</Button>
+        <Button color="primary" color="primary">Click</Button>
       </form>
     </Wrapper>
   );
