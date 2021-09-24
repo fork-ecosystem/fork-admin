@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FormField, Textbox, Button, Password } from '@/fork-ui/src/core';
-import { X } from '@fork-ui/src/icons/lazy';
+import {
+  FormField,
+  Textbox,
+  Button,
+  Password,
+  ButtonGroup,
+  Badge,
+} from '@/fork-ui/src/core';
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -10,6 +16,7 @@ const Wrapper = styled.div`
 const LoginPage = () => {
   return (
     <Wrapper>
+      <ButtonGroup></ButtonGroup>
       <form>
         <FormField required>
           <FormField.Label>Email</FormField.Label>
