@@ -6,8 +6,8 @@ import {
   Button,
   Password,
   ButtonGroup,
-  Badge,
-} from '@/fork-ui/src/core';
+  AvatarGroup
+} from '@/fork-ui/core';
 
 const Wrapper = styled.div`
   margin: 0 auto;
@@ -18,7 +18,7 @@ const LoginPage = () => {
     <Wrapper>
       <ButtonGroup></ButtonGroup>
       <form>
-        <FormField required>
+        <FormField>
           <FormField.Label>Email</FormField.Label>
           <Textbox />
         </FormField>
